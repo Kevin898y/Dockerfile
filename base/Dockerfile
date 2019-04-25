@@ -10,5 +10,5 @@ RUN apt-get update && apt-get install -y \
     jupyter \ 
     tqdm \
     pandas \
-	sklearn \
+	sklearn
 	
