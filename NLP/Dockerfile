@@ -1,6 +1,6 @@
-#python3.6_base
+ #python3.6_base
 
-FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04 
+FROM kevin898y/tensorflow_py36:base 
 MAINTAINER LAI
 RUN pip3 install nltk \
 	gensim \
