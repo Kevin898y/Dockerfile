@@ -1,0 +1,25 @@
+install 
+#git
+#keras
+#pandas
+
+
+
+nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
+apt-get update
+#apt-get upgrade
+apt-get install python3-pip
+apt-get install vim
+pip3 install tensorflow-gpu
+pip3 install django
+pip3 install jupyter
+pip3 install beautifulsoup4
+pip3 install tqdm
+pip3 install nltk
+pip3 install pandas
+pip3 install requests
+
+-------------------------
+
+pip3 install sklearn
+pip3 install gensim
