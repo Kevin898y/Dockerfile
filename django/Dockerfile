@@ -1,4 +1,4 @@
-#python3.6 
+#python3.6_Django
 
 FROM kevin898y/tensorflow_py36:base
 MAINTAINER LAI
