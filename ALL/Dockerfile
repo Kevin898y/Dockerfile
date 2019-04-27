@@ -1,4 +1,4 @@
-FROM kevin898y/tensorflow_py36:nlp
+FROM kevin898y/tensorflow_py36:base
 MAINTAINER LAI
 
 RUN pip3 install django \
