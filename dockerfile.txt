@@ -18,9 +18,15 @@ pip3 install tqdm
 pip3 install nltk
 pip3 install pandas
 pip3 install requests
-
--------------------------
-
 pip3 install sklearn
 pip3 install gensim
 flair
+-------------------------
+apt-get install git
+pip3 install git+https://github.com/boudinfl/pke.git 
+
+python3 -m nltk.downloader stopwords
+python3 -m nltk.downloader universal_tagset
+python3 -m spacy download en # download the english model
+
+pip3 install spacy #test
