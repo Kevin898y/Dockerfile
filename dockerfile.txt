@@ -29,4 +29,14 @@ python3 -m nltk.downloader stopwords
 python3 -m nltk.downloader universal_tagset
 python3 -m spacy download en # download the english model
 
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" .
+
 pip3 install spacy #test
+
+pip3 install stanfordnlp
+stanfordnlp.download('en')
+-----------------------
+apt-get update
+apt-get install python3-tk

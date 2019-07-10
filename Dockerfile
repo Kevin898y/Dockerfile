@@ -4,6 +4,7 @@ MAINTAINER LAI
 RUN apt-get update && apt-get install -y \
 	python3-pip \
     vim \
+	git\
 	&& apt-get autoclean\
     && pip3 install tensorflow-gpu \
     jupyter \ 
@@ -16,4 +17,5 @@ RUN pip3 install django \
 	requests
 RUN pip3 install nltk \
 	gensim \
-	flair
+	flair\
+	git+https://github.com/boudinfl/pke.git
