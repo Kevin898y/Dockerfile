@@ -18,4 +18,4 @@ RUN pip3 install django \
 RUN pip3 install nltk \
 	gensim \
 	flair\
-RUN pip3 install git+https://github.com/boudinfl/pke.git
+	git+https://github.com/boudinfl/pke.git
