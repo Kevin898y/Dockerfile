@@ -5,6 +5,7 @@ MAINTAINER LAI
 RUN apt-get update && apt-get install -y \
 	python3-pip \
     vim \
+	git\
 	&& apt-get autoclean\
     && pip3 install tensorflow-gpu \
     jupyter \ 
