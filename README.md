@@ -1,10 +1,14 @@
 # Dockerfile
 
 # base
-* Python 3.6.7
+* Python 3.6.8
 * CUDA 10.0.130
 * cuDNN 7.5.0.56
-* tensorflow-gpu 1.13.1
+* tensorflow-gpu 1.14.0
+* jupyter
+* pandas
+* git
+* vim
 
 # django  
 * django 
@@ -14,4 +18,11 @@
 # nlp
 * nltk 
 * gensim
-* flair
+* pke
+* pytorch
+* pytorch-transformers
+
+# latest
+* base
+* django
+* nlp
