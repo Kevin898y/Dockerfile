@@ -25,10 +25,13 @@ flair
 apt-get install git
 pip3 install git+https://github.com/boudinfl/pke.git 
 
+#配合PKE
 python3 -m nltk.downloader stopwords
 python3 -m nltk.downloader universal_tagset
 python3 -m spacy download en # download the english model
 
+
+#配合pytorch
 git clone https://github.com/NVIDIA/apex
 cd apex
 pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" .
@@ -42,3 +45,5 @@ apt-get update
 apt-get install python3-tk
 ---------------------
 pip3 install pytorch-transformers
+
+pip3 install seqeval
